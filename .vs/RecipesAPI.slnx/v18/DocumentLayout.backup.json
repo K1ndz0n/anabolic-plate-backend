@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\controllers\\opinionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\controllers\\opinionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|c:\\users\\votri\\source\\repos\\recipesapi\\recipesapi\\services\\opinionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B19D6A7-4E8C-4962-8813-39304A7CAD57}|RecipesAPI\\RecipesAPI.csproj|solutionrelative:recipesapi\\services\\opinionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\RecipeService.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Services\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\RecipeService.cs",
+              "RelativeToolTip": "RecipesAPI\\Services\\RecipeService.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAAMsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:47:08.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpinionsController.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Controllers\\OpinionsController.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Controllers\\OpinionsController.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Controllers\\OpinionsController.cs",
+              "RelativeToolTip": "RecipesAPI\\Controllers\\OpinionsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:48:47.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Program.cs",
+              "RelativeToolTip": "RecipesAPI\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAqwFYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:36:45.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OpinionService.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\OpinionService.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Services\\OpinionService.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\OpinionService.cs",
+              "RelativeToolTip": "RecipesAPI\\Services\\OpinionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:37:46.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "RecipesAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:21:30.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RecipesAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RecipesAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T21:12:25.765Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
