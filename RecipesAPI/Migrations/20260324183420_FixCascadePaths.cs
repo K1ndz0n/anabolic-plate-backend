@@ -5,14 +5,25 @@
 namespace RecipesAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class FixDeleteCascadeLikes : Migration
+    public partial class FixCascadePaths : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
+                name: "FK_Likes_AspNetUsers_UserId",
+                table: "Likes");
+
+            migrationBuilder.DropForeignKey(
                 name: "FK_Likes_Recipes_RecipeId",
                 table: "Likes");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Likes_AspNetUsers_UserId",
+                table: "Likes",
+                column: "UserId",
+                principalTable: "AspNetUsers",
+                principalColumn: "Id");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Likes_Recipes_RecipeId",
@@ -27,8 +38,20 @@ namespace RecipesAPI.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
+                name: "FK_Likes_AspNetUsers_UserId",
+                table: "Likes");
+
+            migrationBuilder.DropForeignKey(
                 name: "FK_Likes_Recipes_RecipeId",
                 table: "Likes");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Likes_AspNetUsers_UserId",
+                table: "Likes",
+                column: "UserId",
+                principalTable: "AspNetUsers",
+                principalColumn: "Id",
+                onDelete: ReferentialAction.Cascade);
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Likes_Recipes_RecipeId",

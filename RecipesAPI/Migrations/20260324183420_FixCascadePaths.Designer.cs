@@ -12,8 +12,8 @@ using RecipesAPI.Data;
 namespace RecipesAPI.Migrations
 {
     [DbContext(typeof(RecipesDbContext))]
-    [Migration("20260324180310_FixDeleteCascadeLikes")]
-    partial class FixDeleteCascadeLikes
+    [Migration("20260324183420_FixCascadePaths")]
+    partial class FixCascadePaths
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -519,9 +519,9 @@ namespace RecipesAPI.Migrations
                         .IsRequired();
 
                     b.HasOne("RecipesAPI.Models.AppUser", "User")
-                        .WithMany()
+                        .WithMany("Likes")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Recipe");
@@ -584,6 +584,8 @@ namespace RecipesAPI.Migrations
             modelBuilder.Entity("RecipesAPI.Models.AppUser", b =>
                 {
                     b.Navigation("Follows");
+
+                    b.Navigation("Likes");
 
                     b.Navigation("Opinions");
 
