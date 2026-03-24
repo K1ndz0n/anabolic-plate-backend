@@ -512,7 +512,7 @@ namespace RecipesAPI.Migrations
                     b.HasOne("RecipesAPI.Models.Recipe", "Recipe")
                         .WithMany("Likes")
                         .HasForeignKey("RecipeId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("RecipesAPI.Models.AppUser", "User")

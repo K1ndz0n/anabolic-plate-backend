@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F6umIim7EGk=",
+  "dgSpecHash": "r3Kt5bGSjYI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\votri\\source\\repos\\RecipesAPI\\RecipesAPI\\RecipesAPI.csproj",
+  "projectFilePath": "C:\\Users\\votri\\Desktop\\anabolic-plate-backend\\RecipesAPI\\RecipesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\votri\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\votri\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
