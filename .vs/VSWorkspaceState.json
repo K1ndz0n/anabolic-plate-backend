@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\RecipesAPI",
-    "\\RecipesAPI\\Migrations"
+    "\\RecipesAPI\\Models"
   ],
-  "SelectedNode": "\\.gitigonre",
+  "SelectedNode": "\\RecipesAPI\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

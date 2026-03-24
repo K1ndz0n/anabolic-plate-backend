@@ -8,5 +8,6 @@ namespace RecipesAPI.Models
         public List<Recipe> Recipes { get; set; } = new();
         public List<Opinion> Opinions { get; set; } = new();
         public List<Follow> Follows { get; set; } = new();
+        public List<Like> Likes { get; set; } = new();
     }
 }

@@ -52,6 +52,12 @@ namespace RecipesAPI.Data
                 .WithMany(r => r.Likes)
                 .HasForeignKey(l => l.RecipeId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Like>()
+                .HasOne(l => l.User)
+                .WithMany(u => u.Likes)
+                .HasForeignKey(l => l.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
 
         public DbSet<Recipe> Recipes { get; set; }
