@@ -47,6 +47,7 @@ namespace RecipesAPI.Controllers
             return Ok(photoService.GetPhotoResponse(photo));
         }
 
+        [HttpHead("/api/Recipes/{recipeId}/Photos")]
         [HttpGet("/api/Recipes/{recipeId}/Photos")]
         public async Task<ActionResult<List<PhotoDto>>> GetRecipePhotos(int recipeId)
         {
